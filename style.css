@@ -1,11 +1,48 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: var(--background) !important;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+h4, h5, h6 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.name,
+.live_btn,
+.git_btn,
+.pricing_tag,
+.testimonial_tag,
+.contact_tag,
+.cards ul li,
+.tages p {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.intro h1{
+    font-size: clamp(3rem, 6vw, 4.8rem);
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.1;
+}
+
+.intro p{
+    font-size: 18px;
+    line-height: 1.8;
 }
 
 .intro {
@@ -20,9 +57,9 @@ body {
 
 .intro h1 {
     color: var(--foreground);
-    font-weight: 700;
+    /* font-weight: 700;
     font-size: 4rem;
-    line-height: 5rem;
+    line-height: 5rem; */
 }
 
 .intro h1 span {
@@ -624,7 +661,7 @@ a.live_btn {
     text-decoration: none;
     color: #000;
     background-color: var(--primary);
-    padding: 10px 49px 11px 49px;
+    padding: 10px 44px 11px 44px;
     border-radius: 9px;
     font-size: 12px;
     margin-right: 8px;
@@ -640,7 +677,7 @@ a.live_btn:hover {
 a.git_btn {
     text-decoration: none;
     color: #fff;
-    padding: 10px 49px 11px 49px;
+    padding: 10px 44px 11px 44px;
     border-radius: 9px;
     font-size: 12px;
     margin-right: 8px;
