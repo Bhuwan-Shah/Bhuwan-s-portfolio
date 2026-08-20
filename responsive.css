@@ -11,6 +11,10 @@
         height: auto;
     }
 
+    .project_section .project_info button {
+        width: 100%;
+    }
+
     a.live_btn {
         padding: 10px 34px 11px 34px;
     }

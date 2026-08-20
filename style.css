@@ -8,12 +8,16 @@ body {
     background-color: var(--background) !important;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 700;
     letter-spacing: -1px;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
     font-weight: 600;
 }
 
@@ -33,14 +37,14 @@ p {
     font-family: 'JetBrains Mono', monospace;
 }
 
-.intro h1{
+.intro h1 {
     font-size: clamp(3rem, 6vw, 4.8rem);
     font-weight: 800;
     letter-spacing: -2px;
     line-height: 1.1;
 }
 
-.intro p{
+.intro p {
     font-size: 18px;
     line-height: 1.8;
 }
@@ -648,11 +652,10 @@ section.projects {
 }
 
 .project_section .project_info button {
-    width: 100%;
+    width: max-content;
 }
 
-
-.live_btns {
+.btn_section {
     text-align: center;
     margin: 10px 0 10px 0;
 }
@@ -683,12 +686,15 @@ a.git_btn {
     margin-right: 8px;
     border: 1px solid #202938;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 a.git_btn:hover {
     background-color: #151b24;
     color: #fff;
 }
+
+
 
 /* Popup live poster */
 
@@ -760,6 +766,24 @@ a.git_btn:hover {
     background-color: var(--primary);
     top: 8px;
     left: -14px;
+}
+
+.explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.explore a {
+    text-decoration: none;
+}
+
+.explore a h6 {
+    width: max-content;
+    padding: 10px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #214421, transparent);
 }
 
 /* Services section */
@@ -869,6 +893,7 @@ section.services {
     color: var(--primary);
     top: 0;
     left: -26px;
+    font-family: fontawsome;
 }
 
 .services .pricing_center_card .pricing_btn {
@@ -929,6 +954,7 @@ section.services {
     color: var(--primary);
     top: 0;
     left: -26px;
+    font-family: fontawsome;
 }
 
 .services .pricing_cards .pricing_btn {
